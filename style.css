@@ -1,3 +1,22 @@
 body {
   font-family: 'Figtree', sans-serif;
+  font-weight: 600;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 327px;
+  margin-top: 155px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 375px) {
+  .card {
+    width: 384px;
+    margin-top: 218px;
+  }
+  
 }
